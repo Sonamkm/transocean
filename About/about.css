@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(204, 15, 113); */
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    transition: 0.6s;
+    z-index: 99;
+    
+}
+
+header .brand{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+ header.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  header .menu a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: color; 
+  }
+
+  header .menu a:hover{
+    color: black;
+    background: #fff;
+  }
+
+  header .btn{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+  }
+
+.box1{
+ display: flex;
+ border: 1px solid #000;
+ bottom: 10px;
+ height: 57vh;
+}
+
+
+
+.text-overlay{
+  background: url(../images/oil-plant.jpg);
+  background-position:center;
+  background-size:cover;
+  background-blend-mode:darken;
+  background-attachment: fixed;
+  height: 400px;
+  width:100rem;
+  align-items: center;
+  justify-content: center;
+  /* margin-top:15px; */
+  display:grid;
+  /* margin-left: 13rem; */
+  /* margin-top: 10rem; */
+  /* border: 1px solid #000; */
+ 
+}
+
+
+.text-overlay h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  margin-top: 4rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  
+}
+
+.text-overlay p{
+  
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+
+} 
+
+.big-hero light{
+  color: #4B4E53;
+  margin-top: 5rem;
+}
+.box2{
+  /* 
+  bottom: 10px;
+  height: 55vh;
+  width: 80%;
+  margin-left: 10rem; */
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 3rem;
+  border: 1px solid #000;
+  position: relative;
+  margin: auto;
+  box-sizing: border-box;
+ }
+
+ .content{
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 20rem;
+ }
+
+ .content h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 4rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:grey;
+  text-align: center;
+  
+}
+
+h2.bar{
+  border-top: .30em solid #F8BD00;
+    display: inline-block;
+    /* padding: .30em 0 0; */
+    margin: -1px 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p{
+  
+  align-items: center;
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+
+} 
+
+/* history-block */
+
+.box3{
+  /* color: #4B4E53; */
+  margin-top: 5rem;
+ }
+
+ /* history-1-section */
+.container{
+  margin-top: 3rem;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 3rem;
+  border: 1px solid #000;
+  background-color: yellow; 
+  margin-left: 7rem;
+}
+
+.history{
+float: right;
+margin: 5px;
+display: block;
+}
+
+
+.history h2{
+  font-size: 5rem;
+  display: block;
+}
+
+.history p{
+  font-size:23px;
+  margin: 1rem;
+}
+
+img{
+  padding: 3px;
+} 
+
+/* history-2-section */
+
+.container-2{
+  margin-top: 3rem;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 3rem;
+  border: 1px solid #000;
+  background-color: yellow; 
+  margin-left: 7rem;
+}
+
+.history-2{
+  float: right;
+  margin: 5px;
+  display: block;
+  }
+  
+  .history-2 h2 {
+    font-size: 5rem;
+    display: block;
+  }
+  
+  .history-2 p{
+    font-size: 23px;
+    margin: 1rem;
+  }
+
+  img{
+    padding: 3px;
+  
+  } 
+
+
+
+  /* history-3-section */
+
+  .container-3{
+    margin-top: 3rem;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 3rem;
+    border: 1px solid #000;
+    background-color: yellow; 
+    margin-left: 7rem;
+  }
+
+
+  .history-3{
+    float: right;
+    margin: 5px;
+    display: block;
+    }
+    
+    .history-3 h2 {
+      font-size: 5rem;
+      display: block;
+    }
+    
+    .history-3 p{
+      font-size: 23px;
+      
+    }
+
+  ul{
+     list-style-type:square;
+     margin: 2rem;
+    }
+
+  ul li{
+   margin: .5em 0;
+  }
+    img{
+      padding: 3px;
+    } 
+
+/* history-4-section */
+.container-4{
+  margin-top: 3rem;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 3rem;
+  border: 1px solid #000;
+  background-color: yellow; 
+  margin-left: 7rem;
+}
+
+.history-4{
+  float: right;
+  margin: 5px;
+  display: block;
+  }
+  
+  .history-4 h2 {
+    font-size: 5rem;
+    display: block;
+  }
+  
+  .history-4 p{
+    font-size: 23px;
+  }
+
+  ul{
+    list-style-type:square;
+    margin: 2rem;
+   }
+
+ ul li{
+  margin: .5em 0;
+ }
+  img{
+     padding: 3px;
+ }
+
+ /* history-5-section */
+
+ .container-5{
+  margin-top: 3rem;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 3rem;
+  border: 1px solid #000;
+  background-color: yellow; 
+  margin-left: 7rem;
+}
+
+.history-5{
+  float: right;
+  margin: 5px;
+  display: block;
+  }
+  
+  .history-5 h2 {
+    font-size: 5rem;
+    display: block;
+  }
+  
+  .history-5 p{
+    font-size: 23px;
+  }
+
+  ul{
+    list-style-type:square;
+    margin: 2rem;
+   }
+
+ ul li{
+  margin: .5em 0;
+ }
+.img5{
+     padding: 5px;
+     margin-bottom: 60rem;
+
+ }
